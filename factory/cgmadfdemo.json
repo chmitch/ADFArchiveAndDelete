@@ -1,0 +1,9 @@
+{
+	"name": "cgmadfdemo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1aa87388-d127-46a4-8263-65164992af14",
+		"tenantId": "532a5ed3-cd9f-4870-9aea-896e20105b89"
+	}
+}
