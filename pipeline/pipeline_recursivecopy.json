@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1_copy1",
+	"name": "pipeline_recursivecopy",
 	"properties": {
 		"activities": [
 			{
@@ -57,7 +57,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationFile_copy1",
+						"referenceName": "DestinationFolder",
 						"type": "DatasetReference"
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"name": "DestinationFile_copy1",
+	"name": "DestinationFolder",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "cgmadfdemo",
