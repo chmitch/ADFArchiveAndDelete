@@ -231,14 +231,9 @@
 						],
 						"outputs": [
 							{
-								"referenceName": "DestinationFile",
+								"referenceName": "DestinationFile_copy1",
 								"type": "DatasetReference",
-								"parameters": {
-									"fileName": {
-										"value": "@concat('sourcefile',utcNow(),'.csv')",
-										"type": "Expression"
-									}
-								}
+								"parameters": {}
 							}
 						]
 					}
@@ -262,7 +257,7 @@
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/SourceFile')]",
-				"[concat(variables('factoryId'), '/datasets/DestinationFile')]"
+				"[concat(variables('factoryId'), '/datasets/DestinationFile_copy1')]"
 			]
 		},
 		{
@@ -318,11 +313,6 @@
 				"linkedServiceName": {
 					"referenceName": "cgmadfdemo",
 					"type": "LinkedServiceReference"
-				},
-				"parameters": {
-					"fileName": {
-						"type": "string"
-					}
 				},
 				"annotations": [],
 				"type": "DelimitedText",
