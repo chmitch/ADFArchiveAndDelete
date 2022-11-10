@@ -57,14 +57,8 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationFile",
-						"type": "DatasetReference",
-						"parameters": {
-							"fileName": {
-								"value": "@concat('sourcefile',utcNow(),'.csv')",
-								"type": "Expression"
-							}
-						}
+						"referenceName": "DestinationFile_copy1",
+						"type": "DatasetReference"
 					}
 				]
 			}
